@@ -12,11 +12,9 @@ A phase is a step in the [build lifecycle](https://maven.apache.org/guides/intro
 
 When a phase is given, Maven executes every phase in the sequence up to and including the one defined.
 
-In the VSCode terminal, enter the demo folder (if it's not already inside).
+In the VSCode terminal, under the demo folder created in previous section.
 
-> `cd ~/workspace/demo`
-
-The following command will validate and compile the project.
+Use following command will validate and compile the project.
 
 ```
 mvn compile
