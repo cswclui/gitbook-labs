@@ -33,6 +33,18 @@ javac TestCircle.java
 java TestCircle
 ```
 
+
+
+Under the Java Project tab, click `Import Projects`.
+
+<div align="left">
+
+<figure><img src=".gitbook/assets/image (146).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+
+
 You can also click the `Run` button in VSCode IDE.
 
 <div align="left">
@@ -41,13 +53,7 @@ You can also click the `Run` button in VSCode IDE.
 
 </div>
 
-<div align="left">
 
-<figure><img src=".gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-Click Yes.
 
 if your Java extension pack has been installed in VSCode, you can Run the program by clicking the button.
 

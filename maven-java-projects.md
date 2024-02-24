@@ -165,6 +165,7 @@ The `pom.xml` Project Object Model (POM) is the core of a project's configuratio
 The file `pom.xml` is an XML file that contains information about the project and configuration details used by Maven to build the project. Click the file `pom.xml` to view its content. and replace it with the following contents. Save the change.
 
 ```xml
+
 <?xml version="1.0" encoding="UTF-8"?>
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -178,8 +179,8 @@ The file `pom.xml` is an XML file that contains information about the project an
   <name>demo</name>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.source>1.8</maven.compiler.source> <!-- modified -->
-    <maven.compiler.target>1.8</maven.compiler.target> <!-- modified -->
+    <maven.compiler.source>18</maven.compiler.source> <!-- modified -->
+    <maven.compiler.target>18</maven.compiler.target> <!-- modified -->
     <exec.mainClass>com.example.App</exec.mainClass> <!-- added-->
   </properties>
 
@@ -212,6 +213,7 @@ The file `pom.xml` is an XML file that contains information about the project an
       </plugins>
   </build>
 </project>
+
 ```
 
 
@@ -222,11 +224,9 @@ Use Copilot to explain the highlighted lines in pom.xml.
 
 <div align="left">
 
-<figure><img src=".gitbook/assets/image (45).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (147).png" alt=""><figcaption></figcaption></figure>
 
 </div>
-
-
 
 Open a new VScode terminal in the workspace folder. Change to the `demo` folder (if you are not in the folder).
 
